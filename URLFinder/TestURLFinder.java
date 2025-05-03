@@ -30,9 +30,9 @@ public class TestURLFinder {
         boolean isValid = finder.urlChecker(inputUrl);
 
         if (isValid) {
-            System.out.println("Valid URL.");
+            System.out.println("The URL is Valid.");
         } else {
-            System.out.println("Invalid URL.");
+            System.out.println("The URL is Invalid.");
         }
 
         scanner.close();
